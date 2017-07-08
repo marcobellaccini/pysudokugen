@@ -137,7 +137,7 @@ while i < 9:
 	# get possible numbers for position [i,j]
         eset = gete(m,i,j)
         # if possible numbers set is empty
-        # go back 3 + jmp positions
+        # go back jmp positions
         if not eset:
             i,j = goback(i,j,jmp)
             # apply jump limit
